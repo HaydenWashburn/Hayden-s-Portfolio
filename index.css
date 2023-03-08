@@ -1,13 +1,16 @@
 .projectContainer{
     display:grid;
-    grid-template-columns: 450px 450px 450px;
-    grid-template-rows: 250px 250px;
-    
+    grid-template-columns: 35vw 35vw 35vw;
+    grid-template-rows: 35vh 35vh;
 }
 
 .imageContainer{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
     width:80%;
     height:80%;
+    margin:auto;
     border:2px solid black;
 }
 
@@ -18,8 +21,7 @@
 }
 
 #projectImage{
-    display:flex;
-    justify-content: center;
+    position: relative;
     width:100%;
     height:80%;
 }
@@ -29,10 +31,26 @@
 
 }
 
+body{
+    background-color: rgb(91, 91, 160);
+    color:whitesmoke
+}
+
 div>p{
-    display: flex;
-    justify-content: center;
-    align-items:flex-end;
-    text-align:center;
+text-align: center;
     font-family: 'Courier New', Courier, monospace;
+}
+
+main{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+section{
+    padding-top:100px;
+}
+
+@media screen and (max-width:600px) {
+    .projectContainer{
+        grid-template-columns: 450px 450px;
+    }
 }
