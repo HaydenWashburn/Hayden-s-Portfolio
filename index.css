@@ -37,7 +37,11 @@ body{
 }
 
 div>p{
-text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+    text-align: center;
     font-family: 'Courier New', Courier, monospace;
 }
 
