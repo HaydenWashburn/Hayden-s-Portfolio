@@ -1,0 +1,38 @@
+.projectContainer{
+    display:grid;
+    grid-template-columns: 450px 450px 450px;
+    grid-template-rows: 250px 250px;
+    
+}
+
+.imageContainer{
+    width:80%;
+    height:80%;
+    border:2px solid black;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#projectImage{
+    display:flex;
+    justify-content: center;
+    width:100%;
+    height:80%;
+}
+
+.currentProjectSection{
+    font-family:'Courier New', Courier, monospace;
+
+}
+
+div>p{
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+    text-align:center;
+    font-family: 'Courier New', Courier, monospace;
+}
