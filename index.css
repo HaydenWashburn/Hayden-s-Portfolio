@@ -1,38 +1,60 @@
-.gridContainer{
-    display: grid;
-    grid-template-columns: 450px 450px 450px;
-    grid-template-rows: 300px 300px;
+li{
+    display:inline;
 }
 
-.insideContainer{
+li a:hover{
+    background-color: red;
+}
+
+li a {
+    display: inline;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding:15px;
+    text-decoration: none;
+  }
+
+ul {
+    list-style-type: none;
     width:100%;
-    height:100%;
-    display: flex;
-    flex-direction:column;
+    height:50px;
+    overflow: hidden;
+    background-color: rgb(66, 66, 66);
+  }
+
+  .titleContainer{
+    display:flex;
     justify-content: center;
     align-items: center;
-}
+    width:100%;
+    height:10vh;
+    border:5px black solid
+  }
 
-#projectImage{
-    width: 50%;
-    height:50%;
-    position: relative;
-}
+  .aboutContainer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height:20vh;
+    border:5px solid black;
+    margin-top:10px;
+  }
 
-#projectTitle{
-    text-align: center;
-}
+  .projectContainer{
+    width:100%;
+    height:125vh;
+    margin-top:10px;
+    border: 5px solid black;
+  }
 
-body{
-    font-family: 'Courier New', Courier, monospace;
-    background-color: rgb(89, 114, 148);
-    color:rgb(223, 222, 222);
-}
+  #imageContainer-1{
+    width:25%;
+    height:45vh;
+  }
 
-main, section{
-    text-align: center;
-}
-
-section{
-    padding-top:50px;
-}
+  div>img{
+    width:100%;
+    display: flex;
+  }
