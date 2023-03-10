@@ -13,7 +13,6 @@ li a {
     text-align: center;
     padding:15px;
     text-decoration: none;
-    border-radius:12px;
   }
 
 ul {
@@ -21,7 +20,6 @@ ul {
     width:100%;
     height:5vh;
     overflow: hidden;
-    border-radius:12px;
     background-color: rgb(66, 83, 136);
   }
 
@@ -31,18 +29,15 @@ ul {
     align-items: center;
     width:100%;
     height:10vh;
-    border-radius:12px;
-    background-color: rgb(66, 83, 136);
   }
 
   .aboutContainer{
     display:flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     width:100%;
     height:20vh;
-    background-color: rgb(66, 83, 136);
-    border-radius:12px;
     margin-top:10px;
   }
 
@@ -53,8 +48,6 @@ ul {
     width:100%;
     height: 80vh;
     margin-top:10px;
-    border-radius:12px;
-    background-color: rgb(66, 83, 136);
   }
 
 #imageContainer-1{
@@ -83,10 +76,9 @@ ul {
   width:100%;
   height:10vh;
   margin-top:10px;
+  margin-bottom:10px;
   text-align: center;
   font-family: 'Courier New', Courier, monospace;
-  background-color:rgb(66, 83, 136);
-  border-radius:12px;
 }
 
 #projectImage{
@@ -98,7 +90,7 @@ ul {
 
 body{
   background-color: rgb(224, 223, 223);
-  color: rgb(224, 223, 223);
+  color: rgb(66, 83, 136);
 }
 
 header{
