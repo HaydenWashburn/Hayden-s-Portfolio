@@ -6,45 +6,51 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./index.css">
-    <title>Hayden Washburn Web Developer</title>
+    <title>Hayden Washburn: Web Developer</title>
 </head>
 
 <body>
-    <nav>
+    <div class="navBar">
         <ul>
-            <li><a href="default.asp">Home</a></li>
-            <li><a href="projects.asp">Projects</a></li>
-            <li><a href="about.asp">About</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+
         </ul>
-    </nav>
-    <div class="titleContainer">
+    </div>
+    <div class="titleContainer" id="home">
         <h1> Hayden Washburn Web Developer Portfolio</h1>
     </div>
-        <div class="aboutContainer">
+        <div class="aboutContainer" id="about">
             <h1>About</h1>
             <!--Add a paragraph with a summary of who I am and what I am working towards-->
             <p>Welcome to my page where I will be displaying all of the projects I am either currently working on or
-                have
-                completed recently!
-                <br>
-                Thanks for checking me out!
+                have completed recently! Thanks for checking me out!
             </p>
         </div>
-        <div id="currentProject">
-            <h1>Current Projects</h1>
+        <div class="skillsContainer" id="skills">
+            <div>
+            <h1>Skills</h1>
+            <p>List of skills with corresponding Icons to go above</p>
             </div>
-            <div class="projectContainer">
+        </div>
+
+            <div class="projectContainer" id="projects">
+                <div>
+                <h1>Current Projects</h1>
+                </div>
                 <div id="imageContainer-1">
                     <!--Make image clickable to go to project link-->
-                    <img id="projectImage" src="./neon-style-coming-soon-glowing-background-design_1017-25516.avif" alt="">
+                    <img id="projectImage-1" src="./neon-style-coming-soon-glowing-background-design_1017-25516.avif" alt="">
                     <p id="projectTitle">Title of Project</p>
                 </div>
                 <div id="imageContainer-2">
-                    <img id="projectImage" src="./neon-style-coming-soon-glowing-background-design_1017-25516.avif" alt="">
+                    <img id="projectImage-2" src="./neon-style-coming-soon-glowing-background-design_1017-25516.avif" alt="">
                     <p id="projectTitle">Title of Project</p>
                 </div>
                 <div id="imageContainer-3">
-                    <img id="projectImage" src="./neon-style-coming-soon-glowing-background-design_1017-25516.avif" alt="">
+                    <img id="projectImage-3" src="./neon-style-coming-soon-glowing-background-design_1017-25516.avif" alt="">
                     <p id="projectTitle">Title of Project</p>
                 </div>
             </div>
